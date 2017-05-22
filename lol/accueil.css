@@ -2,7 +2,7 @@
 
 /*------------------nav--------------------------*/
 nav{
-  margin: 0;
+  margin: -10px;
   padding: 0;
   width: 100%;
 }
@@ -125,4 +125,21 @@ label{
   width: 5em;
   height: 5em;
   padding-bottom: 10em;
+}
+
+
+/*-----------------------------------------FOOTER------------------------------------*/
+footer{
+  padding-left: 23em;
+  background-color: grey;
+  margin-top: 10em;
+  height: 100%;
+}
+
+footer table{
+  width: 100%;
+}
+
+footer table th{
+  text-align: left;
 }
