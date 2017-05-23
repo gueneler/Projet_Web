@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire de commande</title>
+    <link rel="stylesheet" href="enregistrement.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h2>Formulaire d'enregistrement</h2>
+    <form action="enregistrement.php" method="post">
+      <fieldset>
+        <legend>Vos infos</legend>
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" name="username" required> <br/>
+
+        <label for="mdp">Mot de passe :</label>
+        <input type="password" name="mdp" required> <br/>
+
+        <label for="mdp_conf">Confirmez votre mot de passe :</label>
+        <input type="password" name="mdp_conf" required> <br/>
+
+        <label for="email">Adresse mail :</label>
+        <input type="email" name="email" required> <br/>
+      </fieldset>
+
+      <p>
+        <input type="submit" value="S'enregistrer">
+      </p>
+    </form>
+  </body>
+</html>
